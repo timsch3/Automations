@@ -3,3 +3,4 @@
 
 ## Available functions
 <code>mkhtml [folder_name]</code> Creates a folder structure including assets folders and already connected CSS and JS.
+

@@ -7,5 +7,5 @@ A module script for PowerShell to automate tasks like creating file structures.
 ## Available functions
 | Command | Decription |
 | :--- | :--- |
-| <nobreak>`mkhtml [folder_name]`</nobreak> | Creates a folder structure for a website including assets folders and index.html already connected CSS and JS. |
+| <nobreak>`mkhtml [folder_name]`</nobreak> | Creates a folder structure for a website with an index.html already connected CSS and JS. |
 | `wdir` | Change the working directory to your favorite one (needs to be set in Automations.psm1) |

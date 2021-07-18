@@ -7,5 +7,5 @@ Put the Automations folder into the PowerShell Modules folder (`C:\Windows\Syste
 ## Available functions
 | Command | Decription |
 | :--- | :--- |
-| <nobreak>`mkhtml [folder_name]`</nobreak> | Creates a folder structure for a website with an index.html already connected CSS and JS. |
+| `mkhtml [folder_name]` | Creates a folder structure for a website with an index.html already connected CSS and JS. |
 | `wdir` | Change the working directory to your favorite one (needs to be set in Automations.psm1) |

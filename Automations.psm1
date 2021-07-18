@@ -23,3 +23,7 @@ function mkhtml($dir) {
 </body>
 </html>'
 }
+
+function wdir {
+    cd C:\Users\timsc\Documents\0-WebDev\FullstackBootcamp
+}

@@ -25,5 +25,5 @@ function mkhtml($dir) {
 }
 
 function wdir {
-    cd C:\Users\timsc\Documents\0-WebDev\FullstackBootcamp
+    cd C:\Users\timsc\Google Drive\0-WebDev\FullstackBootcamp
 }

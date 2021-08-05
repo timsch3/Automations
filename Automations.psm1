@@ -2,6 +2,8 @@ function mkhtml($dir) {
     md $dir/assets/html
     md $dir/assets/css
     ni $dir/assets/css/style.css
+    md $dir/assets/scss
+    ni $dir/assets/scss/style.scss
     md $dir/assets/js
     ni $dir/assets/js/main.js
     md $dir/assets/fonts
@@ -26,4 +28,14 @@ function mkhtml($dir) {
 
 function wdir {
     & cd "C:\Users\timsc\Google Drive\0-WebDev\FullstackBootcamp"
+}
+
+function sassy {
+    sass assets/scss:assets/css --style=compressed
+}
+
+function gitgo($comment) {
+    git add .
+    git commit -m "$comment"
+    git push
 }

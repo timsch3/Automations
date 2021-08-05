@@ -1,5 +1,5 @@
 # Automations
-A module script for PowerShell to automate tasks like creating file structures.
+A PowerShell module for automating tasks like creating file structures or condensing multiple often used commands into one.
 
 ## Installation
 Put the Automations folder into the PowerShell Modules folder (C:\Windows\System32\WindowsPowerShell\v1.0\Modules\) and use `Set-ExecutionPolicy RemoteSigned` to allow local scripts.

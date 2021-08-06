@@ -28,7 +28,8 @@ function mkhtml($dir) {
     ni $dir/.vscode/tasks.json
     Add-Content $dir/.vscode/tasks.json '{
     "version": "2.0.0",
-    "tasks": [
+    "tasks":
+    [
         {
             "label": "sass",
             "type": "shell",
@@ -38,11 +39,21 @@ function mkhtml($dir) {
                 "assets/scss:assets/css",
                 "--style=compressed"
             ],
-            "problemMatcher": [],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+        [
+        {
+            "label": "live-server",
+            "type": "shell",
+            "command": "live-server",
+            "args": [
+                "--watch",
+                "assets/scss:assets/css",
+                "--style=compressed"
+            ],
             "runOptions": {
                 "runOn": "folderOpen"
             }

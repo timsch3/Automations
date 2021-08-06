@@ -24,14 +24,35 @@ function mkhtml($dir) {
     <script src="assets/js/main.js"></script>
 </body>
 </html>'
+    md $dir/.vscode
+    ni $dir/.vscode/tasks.json
+    Add-Content $dir/.vscode/tasks.json '{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "sass",
+            "type": "shell",
+            "command": "sass",
+            "args": [
+                "--watch",
+                "assets/scss:assets/css",
+                "--style=compressed"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}'
 }
 
 function wdir {
     & cd "C:\Users\timsc\Google Drive\0-WebDev\FullstackBootcamp"
-}
-
-function sassy {
-    sass assets/scss:assets/css --style=compressed
 }
 
 function gitgo($comment) {

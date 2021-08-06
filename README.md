@@ -9,4 +9,4 @@ Put the Automations folder into the PowerShell Modules folder (C:\Windows\System
 | :--- | :--- |
 | `wdir` | Change the working directory to your most used one (needs to be set in *Automations.psm1*) |
 | ```mkhtml [folder]``` | Creates a folder structure for a website with an index.html connected to CSS and JS plus a .vscode folder with a tasks.json for automatically starting SASS watching (*Manage Automatic Tasks in Folders* must be allowed in VSCode) |
-| ```gitgo [message]``` | Three git commands in one! Write `git add .`, `git commit -m "message"` and `git push` in one line. |
+| ```gitgo ["message"]``` | Three git commands in one! Write `git add .`, `git commit -m "message"` and `git push` in one line. |

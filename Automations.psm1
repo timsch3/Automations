@@ -42,18 +42,11 @@ function mkhtml($dir) {
             "runOptions": {
                 "runOn": "folderOpen"
             }
-        }
-    ]
-        [
+        },
         {
             "label": "live-server",
             "type": "shell",
             "command": "live-server",
-            "args": [
-                "--watch",
-                "assets/scss:assets/css",
-                "--style=compressed"
-            ],
             "runOptions": {
                 "runOn": "folderOpen"
             }
